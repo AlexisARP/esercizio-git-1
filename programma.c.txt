@@ -1,3 +1,32 @@
 Hello Word!
-<stdio.h>
+#include <stdio.h> // Include la libreria standard per input/output
+
+// Dichiarazione della funzione che calcola la somma
+int somma(int a, int b);
+
+int main() {
+    int num1, num2, risultato; // Variabili per memorizzare i numeri e il risultato
+
+    // Chiede all'utente di inserire il primo numero
+    printf("Inserisci il primo numero intero: ");
+    scanf("%d", &num1); // Legge l'input e lo memorizza in num1
+
+    // Chiede all'utente di inserire il secondo numero
+    printf("Inserisci il secondo numero intero: ");
+    scanf("%d", &num2); // Legge l'input e lo memorizza in num2
+
+    // Chiama la funzione somma e memorizza il risultato
+    risultato = somma(num1, num2);
+
+    // Stampa il risultato della somma
+    printf("La somma di %d e %d è: %d\n", num1, num2, risultato);
+
 printf(Alexis)
+
+ return 0; // Indica che il programma è terminato correttamente
+}
+
+// Definizione della funzione che calcola la somma
+int somma(int a, int b) {
+    return a + b; // Restituisce la somma di a e b
+}
