@@ -30,3 +30,19 @@ printf(Alexis)
 int somma(int a, int b) {
     return a + b; // Restituisce la somma di a e b
 }
+
+
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
+ errore grave
